@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className={`flex ${isAuthenticated ? 'mt-5':'items-center h-screen'} justify-center transition-all duration-300`}>
-      <button className='box1 bg-gradient-to-r from-[#121212] to-[#190034] text-white rounded-xl px-5 py-3' onClick={loginWeb3Auth}>
+      <button className='lgShadow bg-gradient-to-r from-[#121212] to-[#190034] text-white rounded-xl px-5 py-3' onClick={loginWeb3Auth}>
       {!isAuthenticated ? (
         <p>Connect Wallet</p>
         ) : (
