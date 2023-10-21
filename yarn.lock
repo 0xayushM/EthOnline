@@ -14,6 +14,18 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
+"@emotion/is-prop-valid@^0.8.2":
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
+  integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
+  dependencies:
+    "@emotion/memoize" "0.7.4"
+
+"@emotion/memoize@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
+  integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
+
 "@ethereumjs/common@2.6.5", "@ethereumjs/common@^2.6.4":
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/@ethereumjs/common/-/common-2.6.5.tgz#0a75a22a046272579d91919cb12d84f2756e8d30"
@@ -2530,6 +2542,15 @@ fraction.js@^4.3.6:
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.3.7.tgz"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
+framer-motion@^10.16.4:
+  version "10.16.4"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.4.tgz#30279ef5499b8d85db3a298ee25c83429933e9f8"
+  integrity sha512-p9V9nGomS3m6/CALXqv6nFGMuFOxbWsmaOrdmhyQimMIlLl3LC7h7l86wge/Js/8cRu5ktutS/zlzgR7eBOtFA==
+  dependencies:
+    tslib "^2.4.0"
+  optionalDependencies:
+    "@emotion/is-prop-valid" "^0.8.2"
+
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
@@ -3778,6 +3799,13 @@ react-qrcode-logo@^2.8.0:
     lodash.isequal "^4.5.0"
     qrcode-generator "^1.4.1"
 
+react-tsparticles@^2.12.2:
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-2.12.2.tgz#679054f229650db8398a646e2bb1c4a750f2a7de"
+  integrity sha512-/nrEbyL8UROXKIMXe+f+LZN2ckvkwV2Qa+GGe/H26oEIc+wq/ybSG9REDwQiSt2OaDQGu0MwmA4BKmkL6wAWcA==
+  dependencies:
+    tsparticles-engine "^2.12.0"
+
 react@^18:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
@@ -4321,6 +4349,11 @@ tslib@^2.4.0:
   version "2.6.2"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+
+tsparticles-engine@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.12.0.tgz#4a52a8de4ab6085180abf27f4720f47caa1455fc"
+  integrity sha512-ZjDIYex6jBJ4iMc9+z0uPe7SgBnmb6l+EJm83MPIsOny9lPpetMsnw/8YJ3xdxn8hV+S3myTpTN1CkOVmFv0QQ==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
