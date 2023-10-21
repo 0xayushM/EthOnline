@@ -9,12 +9,12 @@ export default function Home() {
   } = useAccountAbstraction();
 
   return (
-    <div className='flex items-center justify-center xl:h-screen h-full'>
-      <button className='bg-blue-300 rounded-xl px-5 py-3' onClick={loginWeb3Auth}>
+    <div className={`flex ${isAuthenticated ? 'mt-5':'items-center h-screen'} justify-center transition-all duration-300`}>
+      <button className='box1 bg-gradient-to-r from-[#121212] to-[#190034] text-white rounded-xl px-5 py-3' onClick={loginWeb3Auth}>
       {!isAuthenticated ? (
         <p>Connect Wallet</p>
         ) : (
-        <p className='text-black'>
+        <p className=''>
           {ownerAddress.slice(0,5)}.....{ownerAddress.slice(38,44)}
         </p>
         )}
